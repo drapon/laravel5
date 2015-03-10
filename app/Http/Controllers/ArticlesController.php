@@ -17,6 +17,7 @@ class ArticlesController extends Controller {
       */
      public function __construct(Article $article)
      {
+         $this->middleware('auth');
          $this->article = $article;
      }
 

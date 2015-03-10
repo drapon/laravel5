@@ -144,7 +144,7 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
-
+		'Thujohn\Twitter\TwitterServiceProvider',
 	],
 
 	/*
@@ -194,7 +194,7 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 		'Form'      => 'Illuminate\Html\FormFacade',
 		'HTML'      => 'Illuminate\Html\HtmlFacade',
-
+		'Twitter'           => 'Thujohn\Twitter\TwitterFacade',
 	],
 
 ];

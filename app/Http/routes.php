@@ -20,3 +20,10 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+// Route::get('venues', 'VenuesController@getIndex');
+// Route::controller('venues', 'VenuesController');
+
+// Route::get('/tweet', function(){
+// 		return $array = Twitter::query('search/tweets', 'GET', array('q' => 'イベント', 'count' => 1, 'result_type' => 'recent' , 'format' => 'json'));
+// });
